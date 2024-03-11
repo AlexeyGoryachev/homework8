@@ -12,11 +12,17 @@ public class Main {
         int [] num2={11,22,33};
         System.out.println(" ");
         System.out.println("Task 2.");
-        System.out.print(Arrays.toString(num));
+        for (int e = 0; e < num.length; e++) {
+            System.out.print(num[e] + ", ");
+        }
         System.out.println(" ");
-        System.out.print(Arrays.toString(num1));
+        for (int e = 0; e < num1.length; e++) {
+            System.out.print(num1[e] + ", ");
+        }
         System.out.println(" ");
-        System.out.println(Arrays.toString(num2));
+        for (int e = 0; e < num2.length; e++) {
+            System.out.print(num2[e] + ", ");
+        }
         System.out.println(" ");
         System.out.println("Task 3.");
         for (int i=num.length - 1; i>=0; i--) {
@@ -32,8 +38,6 @@ public class Main {
         }
         System.out.println(" ");
         System.out.println("Task 4.");
-        //num [0] = num [0] + 1;
-        //num [2] = num [2] + 1;
         for (int q=0; q<num.length; q++){
             if (num[q]%2!=0){
                 num[q]++;
